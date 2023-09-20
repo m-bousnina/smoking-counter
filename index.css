@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body, .wrapper{
+    height: 100%;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    background-image: url("smoking2.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+
+    color: whitesmoke;
+}
+
+.container {
+    background: rgb(206, 21, 21);
+    max-width: 80%;
+    padding: 2rem;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    box-shadow: 1px 5px 3px lightgray;
+    
+    
+    
+} 
+
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 1px solid rgb(206, 21, 21);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#increment-btn {
+    background: #ad7a2d;
+}
+
+#increment-btn:hover {
+    background: #9c6d25;
+    border-color: #9c6d25;
+}
+
+#save-btn {
+    background: #1C7947;
+}
+
+#save-btn:hover {
+    background: #15693c;
+    border-color: #15693c;
+}
+
+
+#save-el {
+    font-weight: bold;
+}
+
